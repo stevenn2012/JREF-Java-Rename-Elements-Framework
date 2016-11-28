@@ -1,5 +1,5 @@
 /*
-* File Edit by JREF( Java Rename Framework ) v0.0.1 - Author Steven Puerto
+* File Edit by JREF( Java Rename Elements Framework ) v0.0.1 - Author Steven Puerto
 * Github: stevenn2012.github.io
 */
 /*!
