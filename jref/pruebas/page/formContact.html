@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PhoneBook</title>
+        <link rel="shortcut icon" type="text/css" href="favicon.png">
+        <script type="text/javascript" src="fr\jquery\1.9.1\jquery-1.9.1.min.js"></script>
+    
+        <!--Materialize
+            <link rel="stylesheet" href="fr/materialize/css/materialize.min.css">
+            <script src="fr/materialize/js/materialize.min.js"></script>
+         
+        Bootstrap
+            <link rel="stylesheet" href="fr/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="fr/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+            <script src="fr/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        -->
+        <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+        <link rel='stylesheet' type='text/css' href='css/bootstrap-theme.min.css'>
+        <script type='text/javascript' src='js/bootstrap.min.js'></script>
+        <script type='text/javascript' src='js/materialize.min.js'></script>
+        <link rel='stylesheet' type='text/css' href='css/materialize.min.css'>
+
+        <!---->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div data-role="page" id="pageone">
+            <div data-role="header">
+                <nav>
+                    <div class="nav-wrapper grey darken-4">
+                        <a href="index.html" class="brand-logo center mata" id="title">PhoneBook</a>
+                    </div>
+                </nav>
+            </div>
+            <div data-role="main" class="ui-content">
+            	<div class="bs bsdiv page-header">
+				  <center><h1>Contact</h1></center>
+				</div>
+                <div class="matdiv mat matcontainer">
+                    <div class="matdiv mat matrow">
+					    <form class="matform mat matcol mats12">
+					      	<div class="matdiv mat matrow">
+					        	<div class="mat matdiv matinput-field matcol mats12">
+					          		<input id="last_name" type="text" class="matinput mat matvalidate">
+					          		<label class="mat matlabel" for="last_name">Name</label>
+					        	</div>
+					      	</div>
+					      	<div class="mat matdiv matrow">
+					        	<div class="mat matdiv matinput-field matcol mats12">
+					          		<input id="number" type="text" class="mat matinput matvalidate">
+					          		<label class="matlabel mat" for="number">Phone number</label>
+					        	</div>
+					      	</div>
+					      	<div class="mat matdiv matrow">
+					        	<div class="mat matdiv matinput-field matcol mats12">
+					          		<input id="email" type="email" class="mat matinput matvalidate">
+					          		<label class="mat matlabel" for="email">Email</label>
+					        	</div>
+					      	</div>
+					      	<div class="bs bsdiv bsbtn-group btn-group-justified" role="group" aria-label="...">
+							  	<div class="bs bsdiv bsbtn-group" role="group">
+							    	<button type="button" class="blue lighten-1 bs bsbutton bsbtn matbtn-default white-text">Save</button>
+							  	</div>
+							  	<div class="bs bsdiv bsbtn-group" role="group">
+							    	<button type="button" class="red darken-4 bs bsbtn matbtn-default white-text" onclick="window.location.replace('contacts.html');">Cancel</button>
+							  	</div>
+							</div>
+					    </form>
+					</div>
+                </div>
+                <br>
+            </div>
+            <div data-role="mat matdiv matfooter">
+                <footer class="mat matfooter matpage-footer grey darken-4">
+                    <div class="mat matdiv matcontainer">
+                        <div class="mat matrow">
+                            <div class="mat matdiv matcol matl6 mats12">
+                                <h5 class="mat math5 white-text">Welcome to PhoneBook</h5>
+                                <p class="mat matp grey-text text-lighten-4">Store your contacts in the best place</p>
+                            </div>
+                            <div class="mat matdiv matcol matl4 matoffset-l2 mats12">
+                                <h5 class="mat math5 white-text">Created by:</h5>
+                                <ul class="mat matul">
+                                    <li class="mat matli"><a class="mat grey-text text-lighten-3 mata" href="https://julidr.github.io/">Juliana Diaz</a></li>
+                                    <li class="mat matli"><a class="mat grey-text text-lighten-3 mata" href="#!">Andres Gomez</a></li>
+                                    <li class="mat matli"><a class="mat grey-text text-lighten-3 mata" href="https://stevenn2012.github.io/s">Steven Puerto</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="matfooter-copyright black">
+                        <div class="matcontainer">
+                            © 2016 Copyright
+                            <a class="mata grey-text text-lighten-4 right" href="#!">More Links</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

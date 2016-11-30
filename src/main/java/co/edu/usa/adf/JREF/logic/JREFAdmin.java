@@ -40,6 +40,8 @@ public abstract class JREFAdmin extends JREFConfig{
 		addNativeElement("h5");
 		addNativeElement("p");
 		addNativeElement("footer");
+		addNativeElement("label");
+		addNativeElement("form");
 	}
 	
 	public void addNativeElement(String name){
@@ -97,13 +99,11 @@ public abstract class JREFAdmin extends JREFConfig{
 				}
 				return getTagForHtml(document);
 			} catch (Exception e) {
-				e.printStackTrace();
 				return "Init error: "+e;
 			} finally{
 				deleteTemporalFiles();
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
 			return "RenameElementOfDocument error: "+e;
 		}
 	}

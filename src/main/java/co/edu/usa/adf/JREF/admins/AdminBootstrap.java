@@ -49,5 +49,6 @@ public class AdminBootstrap extends JREFAdmin{
 		this.addElement("btn-primary");
 		this.addElement("btn-lg");
 		this.addElement("btn");
+		this.addElement("btn-group");
 	}
 }

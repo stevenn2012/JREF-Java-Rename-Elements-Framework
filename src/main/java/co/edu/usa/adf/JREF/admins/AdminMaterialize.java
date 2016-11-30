@@ -14,13 +14,13 @@ public class AdminMaterialize extends JREFAdmin{
 		// TODO this.addDocument(documentName, originalFilePath, finalFilePath, scriptFilePath, type);
 		this.addDocument(
 				"materialize.min.js", 
-				"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js", 
+				"jref/pruebas/page/fr/materialize/js/materialize.min.js", 
 				"jref/pruebas/page/js/materialize.min.js", 
 				"js/materialize.min.js", 
 				'J');
 		this.addDocument(
 				"materialize.min.css", 
-				"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css", 
+				"jref/pruebas/page/fr/materialize/css/materialize.min.css", 
 				"jref/pruebas/page/css/materialize.min.css", 
 				"css/materialize.min.css", 
 				'C');
@@ -43,5 +43,12 @@ public class AdminMaterialize extends JREFAdmin{
 		this.addElement("container");
 		this.addElement("l4");
 		this.addElement("offset-l2");
+		this.addElement("btn");
+		this.addElement("s4");
+		this.addElement("s1");
+		this.addElement("s2");
+		this.addElement("s5");
+		this.addElement("s7");
+		this.addElement("s8");
 	}
 }
