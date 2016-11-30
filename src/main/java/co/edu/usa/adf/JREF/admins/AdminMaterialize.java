@@ -36,5 +36,12 @@ public class AdminMaterialize extends JREFAdmin{
 		this.addElement("input-field");
 		this.addElement("s6");
 		this.addElement("inline");
+		this.addElement("footer");
+		this.addElement("page-footer");
+		this.addElement("l6");
+		this.addElement("footer-copyright");
+		this.addElement("container");
+		this.addElement("l4");
+		this.addElement("offset-l2");
 	}
 }

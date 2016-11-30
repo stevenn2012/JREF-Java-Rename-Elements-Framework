@@ -36,6 +36,10 @@ public abstract class JREFAdmin extends JREFConfig{
 		addNativeElement("div");
 		addNativeElement("input");
 		addNativeElement("button");
+		addNativeElement("a");
+		addNativeElement("h5");
+		addNativeElement("p");
+		addNativeElement("footer");
 	}
 	
 	public void addNativeElement(String name){

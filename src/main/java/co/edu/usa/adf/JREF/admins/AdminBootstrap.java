@@ -46,5 +46,8 @@ public class AdminBootstrap extends JREFAdmin{
 		this.addElement("input-group-sm");
 		this.addElement("sizing-addon3");
 		this.addElement("input-group-btn");
+		this.addElement("btn-primary");
+		this.addElement("btn-lg");
+		this.addElement("btn");
 	}
 }
