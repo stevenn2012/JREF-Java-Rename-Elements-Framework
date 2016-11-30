@@ -1,0 +1,53 @@
+[{
+	"originalName":"input-group",
+	"finalName":"bsinput-group"
+},
+{
+
+	"originalName":"input-group-lg",
+	"finalName":"bsinput-group-lg"	
+},
+{
+	"originalName":"input-group-addon",
+	"finalName":"bsinput-group-addon"	
+},
+{
+	"originalName":"sizing-addon1",
+	"finalName":"bssizing-addon1"	
+},
+{
+	"originalName":"form-control",
+	"finalName":"bsform-control"	
+},
+{
+	"originalName":"sizing-addon2",
+	"finalName":"bssizing-addon2"	
+},
+{
+	"originalName":"input-group-sm",
+	"finalName":"bsinput-group-sm"	
+},
+{
+	"originalName":"sizing-addon3",
+	"finalName":"bssizing-addon3"	
+},
+{
+	"originalName":"*",
+	"finalName":"bsall"
+},
+{
+	"originalName":"div",
+	"finalName":".bsdiv"
+},
+{
+	"originalName":"body",
+	"finalName":".bsbodys"
+},
+{
+	"originalName":"html",
+	"finalName":".bshtml"
+},
+{
+	"originalName":"input-group-btn",
+	"finalName":"bsinput-group-btn"	
+}]

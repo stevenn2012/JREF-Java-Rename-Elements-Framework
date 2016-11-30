@@ -1,0 +1,54 @@
+[{
+	"originalName":"row",
+	"finalName":"matrow"
+},
+{
+
+	"originalName":"col",
+	"finalName":"matcol"	
+},
+{
+	"originalName":"s12",
+	"finalName":"mats12"	
+},
+{
+	"originalName":"input-field",
+	"finalName":"matinput-field"	
+},
+{
+	"originalName":"s6",
+	"finalName":"mats6"	
+},
+{
+
+	"originalName":"inline",
+	"finalName":"matinline"	
+},
+{
+	"originalName":"*",
+	"finalName":"matall"
+},
+{
+	"originalName":"div",
+	"finalName":".divmat"
+},
+{
+	"originalName":"body",
+	"finalName":".bodys"
+},
+{
+	"originalName":"html",
+	"finalName":".htmls"
+},
+{
+	"originalName":"div",
+	"finalName":".mtdiv"
+},
+{
+	"originalName":"input",
+	"finalName":".matinput"
+},
+{
+	"originalName":"button",
+	"finalName":".matbutton"
+}]

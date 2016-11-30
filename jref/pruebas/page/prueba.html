@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba page</title>
+	<link rel="shortcut icon" type="text/css" href="favicon.png">
+	<script type="text/javascript" src="fr\jquery\1.9.1\jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!--Materialize
+		<link rel="stylesheet" href="fr/materialize/css/materialize.min.css">
+	 	<script src="fr/materialize/js/materialize.min.js"></script>
+	 
+	Bootstrap
+		<link rel="stylesheet" href="fr/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="fr/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+		<script src="fr/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	-->
+	<script type='text/javascript' src='js/materialize.min.js'></script>
+	<link rel='stylesheet' type='text/css' href='css/materialize.min.css'>
+	<link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+	<link rel='stylesheet' type='text/css' href='css/bootstrap-theme.min.css'>
+	<script type='text/javascript' src='js/bootstrap.min.js'></script>
+	
+</head>
+<body>
+	<div id="container">
+		<div id="Materialize">	
+			<h1>Materialize Form: </h1>
+			 <div class="mat matrow matdiv">
+			    <form class="mat matcol mats12">
+			      <div class="mat matrow matdiv">
+			        <div class="mat matinput-field matcol mats6 matdiv">
+			          <input placeholder="Placeholder" id="first_name" type="text" class="mat validate matinput matinput">
+			          <label class="mat" for="first_name">First Name</label>
+			        </div>
+			        <div class="mat matinput-field matcol mats6 matdiv">
+			          <input id="last_name" type="text" class="mat validate matinput">
+			          <label class="mat" for="last_name">Last Name</label>
+			        </div>
+			      </div>
+			      <div class="mat matrow mtdiv">
+			        <div class="mat matinput-field matcol mats12 mtdiv">
+			          <input disabled value="I am not editable" id="disabled" type="text" class="mat validate matinput">
+			          <label for="disabled">Disabled</label>
+			        </div>
+			      </div>
+			      <div class="mat matow mtdiv">
+			        <div class="mat matinput-field matcol mats12 mtdiv">
+			          <input id="password" type="password" class="mat validate matinput">
+			          <label for="password">Password</label>
+			        </div>
+			      </div>
+			      <div class="mat matrow mtdiv">
+			        <div class="mat matinput-field matcol mats12 mtdiv">
+			          <input id="email" type="email" class="mat validate matinput">
+			          <label for="email">Email</label>
+			        </div>
+			      </div>
+			      <div class="mat matrow mtdiv">
+			        <div class="mat matcol mats12 mtdiv">
+			
+			          <div class="mat matinput-field matinline mtdiv">
+			            <input id="email" type="email" class="mat validate matinput">
+			            <label for="email" data-error="wrong" data-success="right">Email</label>
+			          </div>
+			        </div>
+			      </div>
+			    </form>
+			  </div>
+		</div>
+		<div id="bootstrap">
+			<h1>Bootstrap Form:</h1>
+			<div class="bsinput-group bsinput-group-lg bsdiv">
+			  <span class="bsinput-group-addon" id="bssizing-addon1">@</span>
+			  <input type="text" class="bsform-control" placeholder="Username" aria-describedby="sizing-addon1">
+			</div>
+			<br>
+			<div class="bsinput-group bsdiv">
+			  <span class="bsinput-group-addon" id="bssizing-addon2">@</span>
+			  <input type="text" class="bsform-control" placeholder="Username" aria-describedby="sizing-addon2">
+			</div>
+			<br>
+			<div class="bsinput-group bsinput-group-sm bsdiv">
+			  <span class="bsinput-group-addon" id="bssizing-addon3">@</span>
+			  <input type="text" class="bsform-control" placeholder="Username" aria-describedby="sizing-addon3">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
