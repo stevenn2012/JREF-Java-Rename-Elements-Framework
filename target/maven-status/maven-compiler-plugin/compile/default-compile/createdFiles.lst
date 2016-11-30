@@ -1,0 +1,7 @@
+co\edu\usa\adf\JREF\App.class
+co\edu\usa\adf\JREF\logic\JREFAdmin.class
+co\edu\usa\adf\JREF\logic\JREFElement.class
+co\edu\usa\adf\JREF\logic\JREFConfig.class
+co\edu\usa\adf\JREF\logic\JREFDocument.class
+co\edu\usa\adf\JREF\admins\AdminBootstrap.class
+co\edu\usa\adf\JREF\admins\AdminMaterialize.class
